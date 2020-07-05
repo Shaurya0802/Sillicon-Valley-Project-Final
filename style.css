@@ -1,0 +1,17 @@
+.grid{
+    display : flex;
+    justify-content: center;
+}
+
+.item{
+    font-family : 'Courier New', Courier, monospace;
+    font-style : bold;
+    font-size : xx-large;
+    background-color: #DAA520;
+    text-align: center;
+    margin-top: 75px;
+}
+
+body{
+    background-color : #20B2AA;
+}
