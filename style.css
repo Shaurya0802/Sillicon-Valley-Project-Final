@@ -1,6 +1,7 @@
 .grid{
     display : flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 
 .item{
@@ -9,7 +10,13 @@
     font-size : xx-large;
     background-color: #DAA520;
     text-align: center;
-    margin-top: 75px;
+}
+
+.p,h4,u{
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style : bold;
+    font-size : xx-large;
+    text-align: center;
 }
 
 body{
