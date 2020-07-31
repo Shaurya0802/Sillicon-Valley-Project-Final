@@ -102,40 +102,29 @@ function draw(){
 
     if(input.value() && input2.value() && input3.value()){
         text8.html("Plot area : " + input.value()*input2.value() + "m2");
-        text8.position(displayWidth/2-150,displayHeight/2+730);
+        text8.position(displayWidth/2-150,displayHeight/2+850);
         text8.style("font-family","Roboto");
         text8.style("color","#E46B39");
         text8.style("textDecoration","underline");
 
         text9.html("Concrete volume : " + Math.round(input.value()*input2.value()*(input3.value()/100)) + "m3");
-        text9.position(displayWidth/2-190,displayHeight/2+755);
+        text9.position(displayWidth/2-190,displayHeight/2+875);
         text9.style("font-family","Roboto");
         text9.style("color","#E46B39");
         text9.style("textDecoration","underline");
 
         text10.html("Perimeter Plate : " + total + "m");
-        text10.position(displayWidth/2-170,displayHeight/2+780);
+        text10.position(displayWidth/2-170,displayHeight/2+900);
         text10.style("font-family","Roboto");
         text10.style("color","#E46B39");
         text10.style("textDecoration","underline");
 
         text11.html("Lateral surface area : " + total5 + "m2");
-        text11.position(displayWidth/2-190,displayHeight/2+805);
+        text11.position(displayWidth/2-190,displayHeight/2+925);
         text11.style("font-family","Roboto");
         text11.style("color","#E46B39");
         text11.style("textDecoration","underline");
     }
-    
-    //input.position(375, displayHeight/2+290);
-    //input.style("font-family","Comic Sans MS");
-
-    /*button.position(displayWidth/2-300,displayHeight/2+370)
-    button.style("font-family","Berlin Sans FB");
-    button.style("background-color","#DAA520");
-    button.style("color","#000000");
-    button.style("width","200px");
-    button.style("height","40px");
-    button.style("font-size","15px");*/
 }
 
 
